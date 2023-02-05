@@ -2,6 +2,7 @@
 #include "../includes/gameloop.h"
 #include "../includes/credits.h"
 #include "../includes/profile.h"
+#include "../includes/commands.h"
 
 void gameloop(Player p) {
     std::string gl_opt;
@@ -18,6 +19,12 @@ void gameloop(Player p) {
         }
         if(gl_opt == "profile" || gl_opt == "pr") {
             profile(p);
+        }
+        if(gl_opt == "clear") {
+            std::system("clear");
+        }
+        if(gl_opt == "cmd") {
+            commands();
         }
     } while(gl_one == 1);
 }

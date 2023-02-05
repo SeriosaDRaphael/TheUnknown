@@ -18,3 +18,9 @@
 1.0a0.5-profile:
     + added player profile for tracking
     + type "pr" or "profile" to show player profile
+
+1.0a0.6-clear:
+    + added clear command for clearing 
+    
+1.0a0.7-commands:
+    + added "cmd" command to show help
